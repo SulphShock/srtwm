@@ -1,4 +1,13 @@
 pub mod actions;
 pub mod config;
+pub mod ewmh;
+pub mod event;
 pub mod geometry;
+pub mod ipc;
+pub mod keys;
 pub mod layout;
+pub mod mouse;
+pub mod query;
+pub mod state;
+pub mod window;
+pub mod wm;
