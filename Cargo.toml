@@ -10,4 +10,6 @@ toml = "1"
 nix = { version = "0.31", features = ["poll"] }
 serde_json = "1"
 tracing = "0.1"
-
+tracing-subscriber = { version = "0.3", features = ["env-filter"] }
+x11rb = { version = "0.14", features = ["extra-traits"] }
+xkeysym = "0.2"

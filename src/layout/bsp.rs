@@ -53,10 +53,7 @@ impl Tree {
 
     pub fn insert(&mut self, win: Window, area: Rect) {
         let leaf = self.nodes.len();
-        self.nodes.push(Node::Leaf {
-            win,
-            parent: None,
-        });
+        self.nodes.push(Node::Leaf { win, parent: None });
 
         let Some(root) = self.root else {
             self.root = Some(leaf);
@@ -174,7 +171,9 @@ impl Tree {
 
     pub fn resize(&mut self, dir: Dir, amount: f32) -> bool {
         let Some(f) = self.focus else { return false };
-        let Some(p) = self.parent(f) else { return false };
+        let Some(p) = self.parent(f) else {
+            return false;
+        };
         let (axis, first) = match &self.nodes[p] {
             Node::Split { axis, a, .. } => (*axis, *a == f),
             _ => return false,
