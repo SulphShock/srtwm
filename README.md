@@ -1,5 +1,7 @@
-#<div align="center">
-  <img src="assets/banner.png" alt="srtwm" width="100%">
+<div align="center">
+
+  <img width="3852" height="1204" alt="srtwm-logo-gray-green" src="https://github.com/user-attachments/assets/bf8e13f9-2975-491e-abc8-8a3fd245b5f2" />
+
 </div>
 
 <br>
@@ -27,7 +29,11 @@ Floats, workspaces, a resize mode, and a Unix-socket control protocol.
 
 <br>
 
----
+
+
+https://github.com/user-attachments/assets/495985fe-5f7d-4525-9aea-47a394e87377
+
+
 
 <br>
 
